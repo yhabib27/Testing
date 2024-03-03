@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #343a40;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.5rem;
+}
+
+#bio img {
+  max-width: 100%;
+  height: auto;
+}
+
+#projects .card {
+  transition: transform 0.3s;
+}
+
+#projects .card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #f8f9fa;
+}
